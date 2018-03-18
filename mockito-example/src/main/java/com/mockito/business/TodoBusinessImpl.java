@@ -6,7 +6,7 @@ import java.util.List;
 import com.mockito.data.api.TodoService;
 
 //TodoBusinessImpl is SUT: System Under Test
-//TodoService is Dependency
+//TodoService is Dependency as TodoBusinessImpl requires its
 public class TodoBusinessImpl {
 
 	private TodoService todoService;
