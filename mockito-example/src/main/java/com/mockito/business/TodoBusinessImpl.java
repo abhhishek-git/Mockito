@@ -15,7 +15,7 @@ public class TodoBusinessImpl {
 		this.todoService = todoService;
 	}
 
-	private List<String> retrieveTodoRelatedToSpring(String user) {
+	public List<String> retrieveTodoRelatedToSpring(String user) {
 		List<String> filteredTodos = new ArrayList<>();
 		List<String> todos = todoService.retrieveToDos(user);
 		for(String todo: todos) {
